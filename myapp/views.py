@@ -9,12 +9,6 @@ from itertools import chain
 
 from django.db import models
 
-from functools import reduce
-from queryset_sequence import QuerySetSequence
-from rest_framework.permissions import IsAuthenticated
-
-
-
 
 from myapp.models import advisor,user,bookingreq
 from myapp.serializers import advisorSerializer,userSerializer,bookingreqSerializer
