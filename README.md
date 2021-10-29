@@ -2,7 +2,7 @@ Make an API using Django  for an advisor network where users can come and book a
 a. The following roles should be allowed 
 i. Admin
     1. API: Add an advisor
-         a. Method:
+		 a. Method:
             i. POST
          b. Authentication
             i. not needed for this assignment 
@@ -95,5 +95,5 @@ ii. User
                     c. Advisor Id
                     d. Booking time
                     e. Booking id
-            ii. Status
+          	ii. Status
                 1. 200_OK if the request is successful
