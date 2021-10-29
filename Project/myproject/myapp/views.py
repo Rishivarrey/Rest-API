@@ -69,8 +69,10 @@ def user_login(request):
                 registered_user_serialized = userSerializer(registered_user)
                 token= jwt.encode({'email': input_email, 'password': input_password}, 'MySecretKey', algorithm='HS256')
 
-
-                return JsonResponse(registered_user_serialized.data,safe=True, status=status.HTTP_200_OK)
+                data = {}
+                data['User_id'] = registered_user.id
+                data['JWTAuthentication token']=token
+                return JsonResponse(data, status=status.HTTP_200_OK)
 
 
             else:
