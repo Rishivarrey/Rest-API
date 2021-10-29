@@ -5,7 +5,6 @@ certifi==2021.10.8
 cffi==1.15.0
 charset-normalizer==2.0.7
 click==8.0.3
-cm-rgb==0.3.6
 configparser==5.0.2
 cryptography==35.0.0
 dj-database-url==0.5.0
