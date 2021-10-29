@@ -1,15 +1,8 @@
-import jwt,datetime
-
-from django.core import serializers
+import jwt
 from django.http.response import JsonResponse
 from rest_framework.parsers import JSONParser
 from rest_framework import status
 from django.http import HttpResponse
-from itertools import chain
-
-from django.db import models
-
-
 from myapp.models import advisor,user,bookingreq
 from myapp.serializers import advisorSerializer,userSerializer,bookingreqSerializer
 from rest_framework.decorators import api_view

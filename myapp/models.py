@@ -1,12 +1,10 @@
 from django.db import models
 
 # Create your models here.
-
-
 class advisor(models.Model):
     name = models.CharField(max_length=70, blank=False)
     photourl = models.URLField()
-    bookingtime = models.charField(max_length=70,null=True)
+    bookingtime = models.CharField(max_length=70,null=True)
     booking_id=models.IntegerField(null=True)
 
     def __str__(self):
