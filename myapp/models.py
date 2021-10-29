@@ -6,7 +6,7 @@ from django.db import models
 class advisor(models.Model):
     name = models.CharField(max_length=70, blank=False)
     photourl = models.URLField()
-    bookingtime = models.DateTimeField(null=True)
+    bookingtime = models.charField(max_length=70,null=True)
     booking_id=models.IntegerField(null=True)
 
     def __str__(self):
