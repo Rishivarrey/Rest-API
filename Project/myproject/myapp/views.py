@@ -1,4 +1,4 @@
-import datetime
+import jwt,datetime
 
 from django.core import serializers
 from django.http.response import JsonResponse
@@ -12,8 +12,8 @@ from django.db import models
 from functools import reduce
 from queryset_sequence import QuerySetSequence
 from rest_framework.permissions import IsAuthenticated
-from rest_framework_jwt.authentication import JSONWebTokenAuthentication
-from rest_framework_jwt.views import obtain_jwt_token, refresh_jwt_token, verify_jwt_token
+
+
 
 
 from myapp.models import advisor,user,bookingreq
