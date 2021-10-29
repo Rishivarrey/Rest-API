@@ -29,7 +29,6 @@ psutil==5.8.0
 psycopg2-binary==2.9.1
 pycairo==1.20.0
 pycparser==2.20
-PyGObject--no-binary==3.38.0
 PyJWT==2.3.0
 PyQt5==5.15.2
 PyQt5-sip==12.9.0
