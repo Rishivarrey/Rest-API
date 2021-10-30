@@ -6,7 +6,7 @@
 - Deployment with Procfile on heroku
 - Working with tools that are free for open source
 ## Features ✨
--Basic CRUD operations 
+-Basic CRUD operations
 -Advisor registration
 -User Registration
 -User can login and book a call with an advisor
@@ -34,17 +34,17 @@ If running on local machine do
 ```python
 python3 manage.py runserver
 ./manage.py runserver
-``` 
+```
 ##CRUD operations available in this API
-a. The following roles are should be allowed 
+a. The following roles are should be allowed
 i. Admin
     1. API: Add an advisor
          a. Method:
             i. POST
          b. Authentication
-            i. not needed for this assignment 
+            i. not needed for this assignment
         c. Endpoint:
-            i. /admin/advisor/ 
+            i. /admin/advisor/
         d. Request:
             i. Advisor name
             ii. Advisor Photo URL
@@ -85,10 +85,8 @@ ii. User
                 2. User id
             ii. Status
                 1. 200_OK if  the request is successful
-                2. 400_BAD_REQUEST if any of the above
-                fields are missing
-                3. Return
-                401_AUTHENTICATION_ERROR if the
+                2. 400_BAD_REQUEST if any of the above fields are missing
+                3. Return 401_AUTHENTICATION_ERROR if the
                 email/password combination was wrong
     3. API: Get the list of advisors
         a. Method:
@@ -105,25 +103,25 @@ ii. User
                     c. Advisor Id
             ii. Status
                 1. 200_OK if the request is successful
-    4. API: Can book call with an advisor 
+    4. API: Can book call with an advisor
         a. Method:
-            i. POST 
+            i. POST
         b. Endpoint:
-            i. /user/<user-id>/advisor/<advisor-id>/ 
+            i. /user/<user-id>/advisor/<advisor-id>/
         c. Request:
-            i. Booking time (a DateTime string) 
+            i. Booking time (a DateTime string)
         d. Response:
             i. Body:
                 1. None
             ii. Status
                 1. 200_OK if the request is successful
-    5. API: Can get all the booked calls 
+    5. API: Can get all the booked calls
         a. Method:
-            i. GET 
+            i. GET
         b. Endpoint:
-            i. /user/<user-id>/advisor/booking/ 
+            i. /user/<user-id>/advisor/booking/
         c. Request:
-            i. None 
+            i. None
         d. Response:
             i. Body:
                 1. An array of advisor objects with each object having
@@ -134,7 +132,7 @@ ii. User
                     e. Booking id
             ii. Status
                 1. 200_OK if the request is successful
-         
+
 
 
 
