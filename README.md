@@ -1,17 +1,17 @@
-<h1 align="center">Django RestApi</h1>
-## LIVE
-<https://restapi-rishi.herokuapp.com>
-## Motivation 🎯
-- App suggestion based on interview assignment
-- Deployment with Procfile on heroku
-- Working with tools that are free for open source
-## Features ✨
--Basic CRUD operations
--Advisor registration
--User Registration
--User can login and book a call with an advisor
+<h1 align="center">Django RestApi</h1>  
+## LIVE 
+<https://restapi-rishi.herokuapp.com> 
+## Motivation 🎯  
+- App suggestion based on interview assignment 
+- Deployment with Procfile on heroku 
+- Working with tools that are free for open source 
+## Features ✨ 
+-Basic CRUD operations  
+-Advisor registration   
+-User Registration   
+-User can login and book a call with an advisor  
 
-## Requirements
+## Requirements 
 
 asgiref==3.4.1
 cffi==1.15.0
