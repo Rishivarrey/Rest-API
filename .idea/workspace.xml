@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="033fb6d2-2871-4db9-a597-c0bb27030b7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/myproject/staticfiles/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject/staticfiles/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject/staticfiles/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject/staticfiles/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject/staticfiles/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject/staticfiles/.idea/staticfiles.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject/staticfiles/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject/staticfiles/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
