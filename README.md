@@ -1,4 +1,4 @@
-<h1 align="center">Django RestApi</h1><br />
+<h1 align="center">Django Rest Api</h1><br />
 
 ## LIVE<br/>
 [https://restapi-rishi.herokuapp.com](https://restapi-rishi.herokuapp.com) <br />
